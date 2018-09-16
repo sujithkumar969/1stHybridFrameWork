@@ -1,0 +1,23 @@
+09-13-2018 12:42:28  INFO [main] BaseTest:11 - ****************************************************************************************
+09-13-2018 12:42:28  INFO [main] BaseTest:12 - ****************************************************************************************
+09-13-2018 12:42:28  INFO [main] BaseTest:13 - $$$$$$$$$$$$$$$$$$$$$                 ohrmloginTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+09-13-2018 12:42:28  INFO [main] BaseTest:14 - ****************************************************************************************
+09-13-2018 12:42:28  INFO [main] BaseTest:15 - ****************************************************************************************
+09-13-2018 12:42:29  INFO [main] BaseTest:45 - Entered the user name
+09-13-2018 12:42:30  INFO [main] BaseTest:45 - Entered the password
+09-13-2018 12:42:35  INFO [main] BaseTest:45 - Clicked on login button
+09-13-2018 12:42:36  INFO [main] BaseTest:45 - validated the dashboard text
+09-13-2018 12:42:36  INFO [main] BaseTest:45 - Clicked on welcome link
+09-13-2018 12:42:38  INFO [main] BaseTest:45 - Clicked on logout link
+09-13-2018 12:42:38  INFO [main] BaseTest:30 - Test is Passed
+09-13-2018 12:42:38  INFO [main] BaseTest:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+09-13-2018 12:42:38  INFO [main] BaseTest:22 - X
+09-13-2018 12:42:38  INFO [main] BaseTest:23 - X
+09-13-2018 12:42:38  INFO [main] BaseTest:24 - X
+09-13-2018 12:42:38  INFO [main] BaseTest:25 - X
+09-13-2018 12:42:39 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+09-13-2018 12:42:39 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+09-13-2018 12:42:39 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+09-13-2018 12:42:39 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+09-13-2018 12:42:39 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/SUJITH%20KUMAR%20S/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+09-13-2018 12:42:21  INFO [main] BaseTest:45 - Email Successfully Sent with Attachments

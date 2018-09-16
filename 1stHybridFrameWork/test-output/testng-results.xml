@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Executing 'ohrmloginTest'....]]>
+    </line>
+    <line>
+      <![CDATA['ohrmloginTest' is Passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22213" started-at="2018-09-16T10:11:15Z" finished-at="2018-09-16T10:11:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22213" started-at="2018-09-16T10:11:15Z" finished-at="2018-09-16T10:11:37Z">
+      <class name="com.amazon.scripts.OHRMloginTest">
+        <test-method status="PASS" signature="initialisation()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="initialisation" is-config="true" duration-ms="534" started-at="2018-09-16T10:11:15Z" finished-at="2018-09-16T10:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisation -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method, org.testng.xml.XmlTest)[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="preCondition" is-config="true" duration-ms="11589" started-at="2018-09-16T10:11:15Z" finished-at="2018-09-16T10:11:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.scripts.OHRMloginTest.ohrmloginTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@c73efb52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="ohrmloginTest()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="ohrmloginTest" duration-ms="9759" started-at="2018-09-16T10:11:27Z" finished-at="2018-09-16T10:11:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing 'ohrmloginTest'....]]>
+            </line>
+            <line>
+              <![CDATA['ohrmloginTest' is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ohrmloginTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="postCondition" is-config="true" duration-ms="802" started-at="2018-09-16T10:11:36Z" finished-at="2018-09-16T10:11:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ohrmloginTest status=SUCCESS method=OHRMloginTest.ohrmloginTest()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806] output=Executing 'ohrmloginTest'....]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="tearDown" is-config="true" duration-ms="5788" started-at="2018-09-16T10:11:37Z" finished-at="2018-09-16T10:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.scripts.OHRMloginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
