@@ -8,16 +8,16 @@
       <![CDATA['ohrmloginTest' is Passed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="22213" started-at="2018-09-16T10:11:15Z" finished-at="2018-09-16T10:11:37Z">
+  <suite name="Suite" duration-ms="22517" started-at="2018-09-16T10:35:27Z" finished-at="2018-09-16T10:35:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22213" started-at="2018-09-16T10:11:15Z" finished-at="2018-09-16T10:11:37Z">
+    <test name="Test" duration-ms="22517" started-at="2018-09-16T10:35:27Z" finished-at="2018-09-16T10:35:50Z">
       <class name="com.amazon.scripts.OHRMloginTest">
-        <test-method status="PASS" signature="initialisation()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="initialisation" is-config="true" duration-ms="534" started-at="2018-09-16T10:11:15Z" finished-at="2018-09-16T10:11:15Z">
+        <test-method status="PASS" signature="initialisation()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="initialisation" is-config="true" duration-ms="536" started-at="2018-09-16T10:35:27Z" finished-at="2018-09-16T10:35:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialisation -->
-        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method, org.testng.xml.XmlTest)[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="preCondition" is-config="true" duration-ms="11589" started-at="2018-09-16T10:11:15Z" finished-at="2018-09-16T10:11:27Z">
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method, org.testng.xml.XmlTest)[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="preCondition" is-config="true" duration-ms="11296" started-at="2018-09-16T10:35:27Z" finished-at="2018-09-16T10:35:39Z">
           <params>
             <param index="0">
               <value>
@@ -26,14 +26,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.xml.XmlTest@c73efb52]]>
+                <![CDATA[org.testng.xml.XmlTest@6466f984]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="ohrmloginTest()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="ohrmloginTest" duration-ms="9759" started-at="2018-09-16T10:11:27Z" finished-at="2018-09-16T10:11:36Z">
+        <test-method status="PASS" signature="ohrmloginTest()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="ohrmloginTest" duration-ms="10337" started-at="2018-09-16T10:35:39Z" finished-at="2018-09-16T10:35:49Z">
           <reporter-output>
             <line>
               <![CDATA[Executing 'ohrmloginTest'....]]>
@@ -43,7 +43,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ohrmloginTest -->
-        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="postCondition" is-config="true" duration-ms="802" started-at="2018-09-16T10:11:36Z" finished-at="2018-09-16T10:11:37Z">
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="postCondition" is-config="true" duration-ms="813" started-at="2018-09-16T10:35:49Z" finished-at="2018-09-16T10:35:50Z">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="tearDown" is-config="true" duration-ms="5788" started-at="2018-09-16T10:11:37Z" finished-at="2018-09-16T10:11:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.scripts.OHRMloginTest@1fe3806]" name="tearDown" is-config="true" duration-ms="7116" started-at="2018-09-16T10:35:50Z" finished-at="2018-09-16T10:35:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
