@@ -1,5 +1,6 @@
 package com.amazon.scripts;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.amazon.genericlib.BaseTest;
@@ -20,6 +21,8 @@ public class OHRMloginTest extends BaseTest {
 		dbp.validateDashboardText();
 		dbp.clickOnWelcomeLink();
 		dbp.clickOnLogoutLink();
+		
+		Assert.fail();
 	}
 
 }

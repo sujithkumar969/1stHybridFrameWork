@@ -17,7 +17,7 @@ public class DataDriven implements AutoConstants {
 			Workbook wb = WorkbookFactory.create(fs);
 		//	s = wb.getSheet(sheet).getRow(rowIndex).getCell(cellIndex).getStringCellValue();
 			s = wb.getSheet(sheet).getRow(rowIndex).getCell(cellIndex).toString();
-		} 
+		}
 		catch (Exception e) {
 			
 		}

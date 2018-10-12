@@ -10,16 +10,16 @@ import com.amazon.genericlib.LogUtils;
 
 public class OHRMLoginPage {
 	@FindBy(id="txtUsername")
-	WebElement eleUserNameTextBox;
+	private WebElement eleUserNameTextBox;
 	
 	@FindBy(id="txtPassword")
-	WebElement elePasswordTextBox;
+	private WebElement elePasswordTextBox;
 	
 	@FindBy(id="btnLogin")
-	WebElement eleLoginButton;
+	private WebElement eleLoginButton;
 	
 	@FindBy(xpath="//span[text()='Invalid credentials']")
-	WebElement eleWarningMsg;
+	private WebElement eleWarningMsg;
 	
 	public OHRMLoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);

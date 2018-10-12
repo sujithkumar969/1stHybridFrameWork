@@ -97,7 +97,7 @@ public class BaseTest implements AutoConstants {
 	public void tearDown() {
 		
 		int smtpPortNo = Integer.parseInt(props.getProperty("smtpPortNo"));
-		Boolean SSLOnConet = Boolean.parseBoolean(props.getProperty("SSLOnConet"));		
+		Boolean SSLOnConet = Boolean.parseBoolean(props.getProperty("SSLOnConet"));
 		extentReport.flush();
 		try{			
 			LibraryUtils.sendReportByGMail(props.getProperty("hostName"), props.getProperty("fromAddress"), 

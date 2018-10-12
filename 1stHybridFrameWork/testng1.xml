@@ -5,6 +5,7 @@
 <listeners>                                                <!-- listeners from .xml applied to all classes -->
    <listener class-name="com.amazon.genericlib.Log"></listener> 
 <!--  <listener class-name="com.amazon.genericlib.WebEventListener"></listener> -->
+   <listener class-name="com.amazon.analyser.ReTestFailedScripts"></listener>
 </listeners>
 
   <test thread-count="5" name="Test">
